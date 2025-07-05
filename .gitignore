@@ -1,0 +1,33 @@
+# .gitignore for manga-translator-prototype
+
+# Ignore Python virtual environments
+venv/
+
+# Ignore input and output image files
+inputs/
+outputs/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment and config files
+.env
+secrets.env
+config.json
+
+# Ignore API keys and sensitive info
+api_keys.json
+api_keys.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log

@@ -1,0 +1,17 @@
+easyocr
+pandas
+numpy
+matplotlib
+opencv-python
+inference[transformers]
+inference[sam]
+inference[clip]
+inference[gaze]
+inference[grounding-dino]
+inference[yolo-world]
+inference
+supervision
+roboflow
+pytesseract
+manga-ocr
+together
