@@ -3,10 +3,6 @@
 # Ignore Python virtual environments
 venv/
 
-# Ignore input and output image files
-inputs/
-outputs/
-
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
@@ -16,6 +12,7 @@ secrets.env
 config.json
 
 # Ignore API keys and sensitive info
+api_keys.py
 api_keys.json
 api_keys.env
 
