@@ -3,6 +3,10 @@
 # Ignore Python virtual environments
 venv/
 
+# Ignore input and output image files
+inputs/
+outputs/
+
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
