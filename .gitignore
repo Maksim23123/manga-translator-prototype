@@ -13,7 +13,6 @@ outputs/
 # Ignore environment and config files
 .env
 secrets.env
-config.json
 
 # Ignore API keys and sensitive info
 api_keys.py

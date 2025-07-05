@@ -1,0 +1,12 @@
+{
+  "API_KEYS": {
+    "INFERENCE_API_KEY": "your_inference_api_key",
+    "TOGETHER_API_KEY": "your_together_api_key"
+  },
+  "IMPORT_PARAMS": {
+    "input_folder": "inputs",
+    "output_folder": "outputs",
+    "default_image_extension": "jpg",
+    "input_file_name": "p (1)"
+  }
+}
