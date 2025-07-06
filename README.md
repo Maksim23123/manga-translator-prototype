@@ -17,12 +17,28 @@ This project is a prototype pipeline for automatic manga translation. It detects
 
 ## Usage
 1. Place manga images in the `inputs/` folder (e.g., `inputs/p (1).jpg`).
-2. Set up your configuration in `config.json` (see below).
-3. Run the notebook `translation_pipline_prototype.ipynb` step by step.
-4. Translated images will be saved in the `outputs/` folder.
+2. Copy `config.template.json` to `config.json` in the project root. This will be your personal configuration file.
+3. Edit `config.json` to add your API keys and adjust parameters as needed (see below for details).
+4. Run the notebook `translation_pipline_prototype.ipynb` step by step.
+5. Translated images will be saved in the `outputs/` folder.
 
 ## Configuration
-Create a file named `config.json` in the project root with the following structure:
+
+1. **Copy and rename:**
+   - Duplicate `config.template.json` and rename it to `config.json` in the project root.
+
+2. **Edit your API keys:**
+   - Open `config.json` and fill in your API keys:
+     - `INFERENCE_API_KEY`: Required for model inference. [Get your key here](https://roboflow.com/) (Roboflow API).
+     - `TOGETHER_API_KEY`: Required for translation. [Get your key here](https://www.together.ai/docs/inference/getting-started) (Together API).
+
+3. **Adjust import parameters if needed:**
+   - `input_folder`: Folder with input images (default: `inputs`)
+   - `output_folder`: Folder for translated images (default: `outputs`)
+   - `default_image_extension`: Image file extension (default: `jpg`)
+   - `input_file_name`: Name of the input file without extension (e.g., `p (1)`)
+
+Example `config.json` structure:
 ```json
 {
   "API_KEYS": {
@@ -32,11 +48,14 @@ Create a file named `config.json` in the project root with the following structu
   "IMPORT_PARAMS": {
     "input_folder": "inputs",
     "output_folder": "outputs",
-    "default_image_extension": "jpg"
+    "default_image_extension": "jpg",
+    "input_file_name": "p (1)"
   }
 }
 ```
-**Do not commit your `config.json` to version control.**
+
+**Important:**
+- Never commit your `config.json` to version control, as it contains sensitive information.
 
 ## Folder Structure
 - `inputs/` — Place your input manga images here
