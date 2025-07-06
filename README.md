@@ -47,6 +47,7 @@ Create a file named `config.json` in the project root with the following structu
 ## Notes
 - The pipeline is a prototype and may require GPU and internet access for model inference and translation.
 - For best results, use high-quality manga scans.
+- This repository is a prototype and is no longer actively developed. The production version is being rewritten from scratch based on the insights gained here.
 
 ## License
 This project is for research and educational purposes only.
