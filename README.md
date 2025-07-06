@@ -69,3 +69,8 @@ Example `config.json` structure:
 
 ## License
 This project is for research and educational purposes only.
+
+## Project Status
+This repository is an early prototype of the Manga Translator project.
+The full version is now in active development here:
+ [Manga Translator – Full Version](https://github.com/Maksim23123/manga-translator)
