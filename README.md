@@ -26,14 +26,14 @@ This project is a prototype pipeline for automatic manga translation. It detects
 
 Below is a demonstration of the pipeline's effect on an example AI-generated manga image:
 
-![Example AI-generated manga image](resources\example_image.jpg)
+![Example AI-generated manga image](resources/example_image.jpg)
 
 Here is what happens when you run this pipeline on a manga scan:
 
 1. **Original image:**
 
   ![Original image](resources/example_original_image.jpg)
-  
+
   _To continue pipeline execution, close the window with the image._
 
 2. **Image with detected box areas:**
