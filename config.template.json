@@ -6,7 +6,6 @@
   "IMPORT_PARAMS": {
     "input_folder": "inputs",
     "output_folder": "outputs",
-    "default_image_extension": "jpg",
-    "input_file_name": "p (1)"
+    "input_file_name": "image_file.jpg"
   }
 }
