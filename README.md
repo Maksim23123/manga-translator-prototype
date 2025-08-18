@@ -31,22 +31,28 @@ Below is a demonstration of the pipeline's effect on an example AI-generated man
 Here is what happens when you run this pipeline on a manga scan:
 
 1. **Original image:**
+
   ![Original image](resources/example_original_image.jpg)
+  
   _To continue pipeline execution, close the window with the image._
 
 2. **Image with detected box areas:**
+
   ![Detected box areas](resources/example_detected_text_areas_image.jpg)
+
   _To continue pipeline execution, close the window with the image._
 
 3. **Image with text removed:**
+
   ![Text removed](resources/example_image_with_text_removed.jpg)
+
   _To continue pipeline execution, close the window with the image._
 
 4. **Resulting image with translated text reinserted:**
-  ![Text reinserted](resources/example_final_image.jpg)
-  _To continue pipeline execution, close the window with the image._
 
-## Examples
+  ![Text reinserted](resources/example_final_image.jpg)
+
+  _To continue pipeline execution, close the window with the image._
 
 
 ## Requirements
